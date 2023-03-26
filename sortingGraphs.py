@@ -1,9 +1,12 @@
 import matplotlib.pyplot as plt
 
-file = open("name.txt", 'r')
-file.readline()
+file = open("../data/bubbleData.txt", 'r')
 ax = plt.subplot(111)
-#for line in file:
-
+reads = []
+writes = []
+for line in file:
+    line = line.split(" ")
+    line[3] = line[3].strip('\n')
+    print(line)
 
 file.close()
