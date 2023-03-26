@@ -14,12 +14,15 @@ for line in file:
 file.close()
 
 ax = plt.subplot(111)
-sizes = range(85, 1001, 100)
+readSizes = range(85, 1001, 100)
+writeSizes = range(115, 1051, 100)
 reads.reverse()
-ax.bar(sizes, reads, width=30, color='r', align='center')
+writes.reverse()
+ax.bar(readSizes, reads, width=30, color='r', align='center')
+ax.bar(writeSizes, writes, width=30, color='b', align='center')
 
 plt.title('BubbleSort Reads and Writes(by vector size)')
 plt.xlabel('Vector Size')
 plt.ylabel('Number of Operations')
-ax.legend()
+plt.legend(['Reads', 'Writes'])
 plt.show()
