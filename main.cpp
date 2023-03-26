@@ -112,9 +112,10 @@ int main() {
         // Decrement size
         size -= 100;
 
-        // Command line call Python file
-        string command = "python ../sortingGraphs.py";
-        system(command.c_str());
+
     }
+    // Command line call Python file
+    string command = "python ../sortingGraphs.py";
+    system(command.c_str());
     return 0;
 }
