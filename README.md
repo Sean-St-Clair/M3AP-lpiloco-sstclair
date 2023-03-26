@@ -1,4 +1,6 @@
-# CS 124 Project 4
+# CS 120 Module 3 Applied Project
+
+(Adapted from uvmcs124f2022/Project4-sstclair)
 
 For this project, you will sort the 1000 objects from your data set. You will modify each sorting algorithm to collect
 data. You will analyze the results from the different sorting algorithms.

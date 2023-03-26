@@ -20,6 +20,29 @@ int main() {
     // Timer variables
     chrono::steady_clock::time_point begin, end;
 
+    // Setting up file output for each graph
+    ofstream bubbleOut, selectionOut, quickOut, heapOut, firstTwoOut, secondTwoOut;
+    bubbleOut.open("../data/bubbleData.txt");
+    selectionOut.open("../data/selectionData.txt");
+    quickOut.open("../data/quickData.txt");
+    heapOut.open("../data/heapData.txt");
+    firstTwoOut.open("../data/firstTwoSortData.txt");
+    secondTwoOut.open("../data/secondTwoSortData.txt");
+
+    bubbleOut << "test";
+    selectionOut << "test";
+    quickOut << "test";
+    heapOut << "test";
+    firstTwoOut << "test";
+    secondTwoOut << "test";
+
+    bubbleOut.close();
+    selectionOut.close();
+    quickOut.close();
+    heapOut.close();
+    firstTwoOut.close();
+    secondTwoOut.close();
+
     int reads, writes;
     int tempReads, tempWrites;
     int size = 1000;
@@ -93,9 +116,5 @@ int main() {
         string command = "python ../sortingGraphs.py";
         system(command.c_str());
     }
-
-    // TODO: Add another sorting algorithm (kinda already did?)
-    // TODO: repeat experiment except double size each time (new main)
-
     return 0;
 }
