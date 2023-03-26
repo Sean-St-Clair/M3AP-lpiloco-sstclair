@@ -91,12 +91,12 @@ Finally, the “value” field (an integer) represents how many gold pieces a gi
 
 ### Analyze the data. Graph the number of reads and writes for each sorting algorithm and look at how the number of reads and writes grows when the size of the data set grows.
 
-![bubble graph](graphs/Bubble_Graph.png)
-![selection graph](graphs/Selection_Graph.png)
-![heap graph](graphs/Heap_Graph.png)
-![unstable graph](graphs/Unstable_Quick_Graph.png)
-![stable graph](graphs/Stable_Quick_Graph.png)
-![two graph](graphs/Two-Sort_Graph.png)
+![bubble graph](images/Bubble_Graph.png)
+![selection graph](images/Selection_Graph.png)
+![heap graph](images/Heap_Graph.png)
+![unstable graph](images/Unstable_Quick_Graph.png)
+![stable graph](images/Stable_Quick_Graph.png)
+![two graph](images/Two-Sort_Graph.png)
 
 ### Compare and contrast the different sorting algorithms and draw conclusions about which sorting algorithms are more efficient. Discuss complexities and their effects.
 
@@ -222,10 +222,11 @@ are performed in succession.
 * Any code that was not authored by yourself or the instructor must be cited in your report. This includes the use of
   concepts not taught in lecture.
 
-  I used https://stackoverflow.com/questions/2808398/easily-measure-elapsed-time for my timer.
-
-  I also used this site for a refresher on algorithm
+* I used https://stackoverflow.com/questions/2808398/easily-measure-elapsed-time for my timer.
+* I also used this site for a refresher on algorithm
   complexities: https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/
+* For the sake of simplicity, I modified the original Project 4 code to no longer track timer variables, as these values
+  are never graphed.
 
 ## Submit
 

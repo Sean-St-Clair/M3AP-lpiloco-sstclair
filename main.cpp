@@ -2,7 +2,7 @@
 #include "heapSort.h"
 #include "selectionSort.h"
 #include "quickSort.h"
-#include "File Input.h"
+#include "fileInput.h"
 #include <algorithm>
 #include <random>
 
@@ -28,6 +28,7 @@ int main() {
     int reads, writes;
     int tempReads, tempWrites;
     int size = 1000;
+    // Records reads and writes data for sizes ranging from 1,000 to 100
     for (int i = 0; i < 10; ++i) {
         trinkets.resize(size);
 
@@ -68,6 +69,7 @@ int main() {
         size -= 100;
     }
 
+    // Closing the output files
     bubbleOut.close();
     selectionOut.close();
     quickOut.close();
