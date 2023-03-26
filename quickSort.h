@@ -2,7 +2,7 @@
 #define QUICKSORT_H
 
 #include "printVec.h"
-#include "File Input.h"
+#include "fileInput.h"
 
 template<typename Comparable>
 void quickSortUnstableRec(vector<Comparable> &vec, int startIndex, int endIndex, int &reads, int &writes) {
