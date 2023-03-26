@@ -1,20 +1,20 @@
-1000 first stable quick sort reads: 55641
-1000 first stable quick sort writes: 22155
-900 first stable quick sort reads: 49112
-900 first stable quick sort writes: 19558
-800 first stable quick sort reads: 42651
-800 first stable quick sort writes: 16969
-700 first stable quick sort reads: 36610
-700 first stable quick sort writes: 14566
-600 first stable quick sort reads: 30352
-600 first stable quick sort writes: 12068
-500 first stable quick sort reads: 24248
-500 first stable quick sort writes: 9668
-400 first stable quick sort reads: 18280
-400 first stable quick sort writes: 7300
-300 first stable quick sort reads: 12757
-300 first stable quick sort writes: 5097
-200 first stable quick sort reads: 7658
-200 first stable quick sort writes: 3058
-100 first stable quick sort reads: 3130
-100 first stable quick sort writes: 1258
+1000 reads 55641
+1000 writes 22155
+900 reads 49112
+900 writes 19558
+800 reads 42651
+800 writes 16969
+700 reads 36610
+700 writes 14566
+600 reads 30352
+600 writes 12068
+500 reads 24248
+500 writes 9668
+400 reads 18280
+400 writes 7300
+300 reads 12757
+300 writes 5097
+200 reads 7658
+200 writes 3058
+100 reads 3130
+100 writes 1258

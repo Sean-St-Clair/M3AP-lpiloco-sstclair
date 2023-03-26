@@ -1,20 +1,20 @@
-1000 bubble reads: 1750869
-1000 bubble writes: 752799
-900 bubble reads: 1426506
-900 bubble writes: 617412
-800 bubble reads: 1124655
-800 bubble writes: 486267
-700 bubble reads: 851853
-700 bubble writes: 362973
-600 bubble reads: 624387
-600 bubble writes: 265293
-500 bubble reads: 433782
-500 bubble writes: 184554
-400 bubble reads: 280978
-400 bubble writes: 121560
-300 bubble reads: 158037
-300 bubble writes: 68679
-200 bubble reads: 69692
-200 bubble writes: 30102
-100 bubble reads: 17532
-100 bubble writes: 7644
+1000 reads 1750869
+1000 writes 752799
+900 reads 1426506
+900 writes 617412
+800 reads 1124655
+800 writes 486267
+700 reads 851853
+700 writes 362973
+600 reads 624387
+600 writes 265293
+500 reads 433782
+500 writes 184554
+400 reads 280978
+400 writes 121560
+300 reads 158037
+300 writes 68679
+200 reads 69692
+200 writes 30102
+100 reads 17532
+100 writes 7644

@@ -33,36 +33,36 @@ int main() {
 
         // Bubble sort
         bubbleSort(trinkets, reads, writes);
-        bubbleOut << size << " bubble reads: " << reads << endl;
-        bubbleOut << size << " bubble writes: " << writes << endl;
+        bubbleOut << size << " reads " << reads << endl;
+        bubbleOut << size << " writes " << writes << endl;
 
         // Selection
         selectionSort(trinkets, reads, writes);
-        selectionOut << size << " selection reads: " << reads << endl;
-        selectionOut << size << " selection writes: " << writes << endl;
+        selectionOut << size << " reads " << reads << endl;
+        selectionOut << size << " writes " << writes << endl;
 
         // Quick sort unstable
         quickSortUnstable(trinkets, reads, writes);
-        quickOut << size << " quick unstable reads: " << reads << endl;
-        quickOut << size << " quick unstable writes: " << writes << endl;
+        quickOut << size << " reads " << reads << endl;
+        quickOut << size << " writes " << writes << endl;
 
         // Heap
         heapSort(trinkets, reads, writes);
-        heapOut << size << " heap reads: " << reads << endl;
-        heapOut << size << " heap writes: " << writes << endl;
+        heapOut << size << " reads " << reads << endl;
+        heapOut << size << " writes " << writes << endl;
 
         // Two-Sort (quick sort stable done twice on different fields)
         vector<Trinket> firstSort = quickSortStable(trinkets, reads, writes, true);
         tempReads = reads;
         tempWrites = writes;
-        firstTwoOut << size << " first stable quick sort reads: " << reads << endl;
-        firstTwoOut << size << " first stable quick sort writes: " << writes << endl;
+        firstTwoOut << size << " reads " << reads << endl;
+        firstTwoOut << size << " writes " << writes << endl;
 
         quickSortStable(firstSort, reads, writes, false);
         reads += tempReads;
         writes += tempWrites;
-        secondTwoOut << size << " second stable quick sort reads: " << reads << endl;
-        secondTwoOut << size << " second stable quick sort reads: " << writes << endl;
+        secondTwoOut << size << " reads " << reads << endl;
+        secondTwoOut << size << " writes " << writes << endl;
 
         // Decrement size
         size -= 100;
