@@ -1,20 +1,20 @@
-1000 second stable quick sort reads: 2407771
-1000 second stable quick sort reads: 807377
-900 second stable quick sort reads: 1952171
-900 second stable quick sort reads: 654971
-800 second stable quick sort reads: 1573978
-800 second stable quick sort reads: 528362
-700 second stable quick sort reads: 1213929
-700 second stable quick sort reads: 407839
-600 second stable quick sort reads: 887279
-600 second stable quick sort reads: 298421
-500 second stable quick sort reads: 635642
-500 second stable quick sort reads: 214066
-400 second stable quick sort reads: 405882
-400 second stable quick sort reads: 136978
-300 second stable quick sort reads: 232172
-300 second stable quick sort reads: 78594
-200 second stable quick sort reads: 103193
-200 second stable quick sort reads: 35139
-100 second stable quick sort reads: 28384
-100 second stable quick sort reads: 9736
+1000 reads 2407771
+1000 writes 807377
+900 reads 1952171
+900 writes 654971
+800 reads 1573978
+800 writes 528362
+700 reads 1213929
+700 writes 407839
+600 reads 887279
+600 writes 298421
+500 reads 635642
+500 writes 214066
+400 reads 405882
+400 writes 136978
+300 reads 232172
+300 writes 78594
+200 reads 103193
+200 writes 35139
+100 reads 28384
+100 writes 9736

@@ -147,8 +147,6 @@ public:
 
 };
 
-// Global functions
-
 // This function reads the data from a CSV file containing information on the magical items,
 // and stores each line's values in a Trinket object in a given vector of Trinkets.
 void readDataFromFile(string filename, vector<Trinket> &trinkets) {
@@ -204,30 +202,6 @@ void readDataFromFile(string filename, vector<Trinket> &trinkets) {
         trinkets.push_back(Trinket(owner, modifier, adjective, type, attribute, value));
     }
     fIn.close();
-}
-
-// This function returns the average value ratio of all magical Trinkets in a given Trinket vector.
-// This value ratio represents a trinket's gold value divided by its modifier value. This ratio may
-// not necessarily present a correlation between a Trinket vector's average gold values and average
-// modifier values.
-double calculateAverageValueRatio(vector<Trinket> &trinkets) {
-    double averageValueRatio;
-    double ratioSum;
-
-    // Loops through each Trinket of the Trinket vector, calculating the value ratio for each Trinket.
-    // This ratio is added to the ratio sum, which will be divided by the total number of elements
-    // in the given vector.
-    for (int i = 0; i < trinkets.size(); i++)
-        ratioSum += trinkets[i].getValue() / trinkets[i].getModifier();
-
-    // Calculates the average value ratio by dividing the ratioSum by the number of elements in the vector
-    if (trinkets.size() > 0)
-        averageValueRatio = ratioSum / trinkets.size();
-    else
-        averageValueRatio = -1;
-
-    // Will return -1 if there was a divide-by-zero error.
-    return averageValueRatio;
 }
 
 #endif //PROJECT_2_FILE_INPUT_H
